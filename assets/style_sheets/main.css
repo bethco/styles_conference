@@ -220,7 +220,7 @@ Buttons
 */
 .btn {
   border-radius: 5px;
-  color: 3fff;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -235,6 +235,15 @@ Buttons
 .btn-alt:hover {
   background: #fff;
   color: #648880;
+}
+.btn-default {
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+.btn-default:hover {
+  background: #77a198;
 }
 
 /*
@@ -363,9 +372,9 @@ textarea {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .register-group label {
-color: #648880;
-cursor: pointer;
-font-weight: 400;
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
 }
 .register-group input,
 .register-group select,
@@ -382,11 +391,11 @@ font-weight: 400;
   width: 100%;
 }
 .register-group select {
-height: 34px;
-width: 60px;
+  height: 34px;
+  width: 60px;
 }
 .register-group textarea {
-height: 78px;
+  height: 78px;
 }
 
 /*
